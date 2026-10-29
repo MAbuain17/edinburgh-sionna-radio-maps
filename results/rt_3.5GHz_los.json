@@ -1,0 +1,29 @@
+{
+  "engine": "Sionna RT",
+  "sionna_rt": "2.2.0",
+  "mitsuba": "3.9.1",
+  "backend": "llvm_ad_mono_polarized",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "frequency_ghz": 3.5,
+  "samples_per_tx_per_seed": 20000000,
+  "seeds": [
+    17,
+    29
+  ],
+  "elapsed_seconds": [
+    0.747155399993062,
+    0.6230822999496013
+  ],
+  "max_depth": 0,
+  "los": true,
+  "specular_reflection": true,
+  "diffuse_reflection": false,
+  "diffraction": false,
+  "refraction": false,
+  "tx_pattern": "iso, V polarization",
+  "measurement": "terrain mesh shifted vertically 1.5 m; two triangles per 10 m cell",
+  "power_dbm_per_site": 30,
+  "bandwidth_hz": 20000000.0,
+  "noise_figure_db": 7,
+  "noise_dbm": -93.98970004336019
+}

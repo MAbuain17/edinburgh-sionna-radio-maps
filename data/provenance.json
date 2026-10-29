@@ -1,0 +1,14 @@
+{
+  "sources": [
+    "https://github.com/NVlabs/sionna-large-radio-maps",
+    "https://science-engineering.ed.ac.uk/about/location-map",
+    "https://www.openstreetmap.org/copyright",
+    "https://registry.opendata.aws/terrain-tiles/",
+    "https://github.com/tilezen/joerd/blob/master/docs/attribution.md"
+  ],
+  "sha256": {
+    "osm.json": "d8cfe04b0b77f756a0ca4937287fbdabebc59419fa91f42f16cf518f15b8627c",
+    "terrain_14_8047_5107.png": "9b43093260c19b4ccd3950a3cf6edd0f2baffec394c0c706173cf94885649d7d",
+    "terrain_14_8047_5108.png": "5a9359f65f7369c069e6365e9075f744d3f7fe6ad44bc09318f5f85913d044a1"
+  }
+}

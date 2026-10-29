@@ -1,0 +1,38 @@
+[
+  {
+    "id": "A",
+    "name": "Noreen and Kenneth Murray Library",
+    "x": 2.463660476042696,
+    "y": 102.60828979220241,
+    "z": 17.111414171241336,
+    "lat": 55.92292199751628,
+    "lon": -3.1749647303664474,
+    "power_dbm": 30,
+    "height_above_modeled_roof_m": 3,
+    "status": "hypothetical study site, not an existing installation"
+  },
+  {
+    "id": "B",
+    "name": "James Clerk Maxwell Building",
+    "x": 81.90565521069277,
+    "y": -27.62126837996766,
+    "z": 20.49134533079058,
+    "lat": 55.921753681547955,
+    "lon": -3.1736882667329867,
+    "power_dbm": 30,
+    "height_above_modeled_roof_m": 3,
+    "status": "hypothetical study site, not an existing installation"
+  },
+  {
+    "id": "C",
+    "name": "Joseph Black Building",
+    "x": -74.22761555696346,
+    "y": 170.53332472080365,
+    "z": 16.52314158797678,
+    "lat": 55.92353055594053,
+    "lon": -3.1761947129231087,
+    "power_dbm": 30,
+    "height_above_modeled_roof_m": 3,
+    "status": "hypothetical study site, not an existing installation"
+  }
+]

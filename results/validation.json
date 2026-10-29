@@ -1,0 +1,26 @@
+{
+  "checks_passed": [
+    "finite terrain vertices",
+    "positive terrain triangle areas",
+    "upward terrain normals",
+    "UTM forward/inverse round trip",
+    "nonnegative finite radio gains",
+    "result shape agrees with measurement mesh"
+  ],
+  "coordinate_roundtrip_max_deg": 4.350440008238365e-09,
+  "sample_convergence": {
+    "base_samples_per_tx_per_seed": 20000000,
+    "comparison_samples_per_tx_per_seed": 40000000,
+    "median_abs_delta_db_both_positive": 0.056972503662109375,
+    "p95_abs_delta_db_both_positive": 1.3387268066406246,
+    "max_abs_delta_db_both_positive": 21.842498779296875,
+    "base_rss_ge_minus85_pct": 77.41477485647917,
+    "comparison_rss_ge_minus85_pct": 77.87921854822206,
+    "zero_state_disagreement_pct": 1.3943597242588373
+  },
+  "los_ablation": {
+    "los_only_rss_ge_minus85_pct": 31.296323373528708,
+    "depth3_rss_ge_minus85_pct": 77.41477485647917
+  },
+  "scope": "Modeled outdoor campus surface triangles; classification at triangle centroids; not field validation"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "King's Buildings campus",
+  "campus_osm": "https://www.openstreetmap.org/way/9514792",
+  "campus_area_m2": 189297.40225790528,
+  "origin_lonlat": [
+    -3.175,
+    55.922
+  ],
+  "origin_utm_m": [
+    489063.66695522465,
+    6197412.287919905
+  ],
+  "crs": "EPSG:32630",
+  "z_reference_m": 80.73817856106929,
+  "bounds_xy_m": [
+    -450.0,
+    -310.0,
+    540.0,
+    440.0
+  ],
+  "bbox_swne_latlon": [
+    [
+      55.91920421028894,
+      -3.182187663718111
+    ],
+    [
+      55.92596538385529,
+      -3.166376054578322
+    ]
+  ],
+  "terrain_z_range_m": [
+    -24.41369523342047,
+    16.41539368133941
+  ],
+  "buildings_total": 855,
+  "campus_buildings": 66,
+  "height_sources": {
+    "OSM height": 5,
+    "OSM levels x 3.5 m": 315,
+    "assumed 10.5 m": 535
+  },
+  "mesh_building_triangles": 19044,
+  "measurement_triangles": 14850,
+  "outdoor_campus_triangles": 2584,
+  "errors": [],
+  "osm_timestamp": {
+    "timestamp_osm_base": "2026-10-04T21:52:50Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "built_utc": "2026-10-04T22:43:53.776383+00:00"
+}

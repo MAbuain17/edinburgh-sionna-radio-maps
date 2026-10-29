@@ -1,0 +1,68 @@
+[
+  {
+    "frequency_ghz": 2.4,
+    "layout": "single_A",
+    "rss_ge_minus85_dbm_pct": 62.56822822478577,
+    "sinr_ge_5_db_pct": 65.93535321970751,
+    "joint_rss_sinr_pct": 62.56822822478577,
+    "zero_gain_pct": 31.044936517500872,
+    "median_seed_delta_db_on_both_positive": 0.0,
+    "p95_seed_delta_db_on_both_positive": 0.0,
+    "seed_delta_cells_count": 2210
+  },
+  {
+    "frequency_ghz": 2.4,
+    "layout": "best_of_ABC",
+    "rss_ge_minus85_dbm_pct": 82.09980531089863,
+    "sinr_ge_5_db_pct": 65.50645619100345,
+    "joint_rss_sinr_pct": 64.34399292190074,
+    "zero_gain_pct": 14.491044583129293,
+    "median_seed_delta_db_on_both_positive": 0.0,
+    "p95_seed_delta_db_on_both_positive": 0.0,
+    "seed_delta_cells_count": 2210
+  },
+  {
+    "frequency_ghz": 3.5,
+    "layout": "single_A",
+    "rss_ge_minus85_dbm_pct": 54.36484406845299,
+    "sinr_ge_5_db_pct": 59.627230303260326,
+    "joint_rss_sinr_pct": 54.36484406845299,
+    "zero_gain_pct": 31.044936517500872,
+    "median_seed_delta_db_on_both_positive": 0.0,
+    "p95_seed_delta_db_on_both_positive": 0.0,
+    "seed_delta_cells_count": 2210
+  },
+  {
+    "frequency_ghz": 3.5,
+    "layout": "best_of_ABC",
+    "rss_ge_minus85_dbm_pct": 77.41477485647917,
+    "sinr_ge_5_db_pct": 63.68452247469294,
+    "joint_rss_sinr_pct": 61.554319779894705,
+    "zero_gain_pct": 14.491044583129293,
+    "median_seed_delta_db_on_both_positive": 0.0,
+    "p95_seed_delta_db_on_both_positive": 0.0,
+    "seed_delta_cells_count": 2210
+  },
+  {
+    "frequency_ghz": 5.8,
+    "layout": "single_A",
+    "rss_ge_minus85_dbm_pct": 48.24909135763637,
+    "sinr_ge_5_db_pct": 54.403486273994616,
+    "joint_rss_sinr_pct": 48.24909135763637,
+    "zero_gain_pct": 31.044936517500872,
+    "median_seed_delta_db_on_both_positive": 0.0,
+    "p95_seed_delta_db_on_both_positive": 0.0,
+    "seed_delta_cells_count": 2210
+  },
+  {
+    "frequency_ghz": 5.8,
+    "layout": "best_of_ABC",
+    "rss_ge_minus85_dbm_pct": 72.65173982440182,
+    "sinr_ge_5_db_pct": 60.431943152866886,
+    "joint_rss_sinr_pct": 57.642736694824194,
+    "zero_gain_pct": 14.491044583129293,
+    "median_seed_delta_db_on_both_positive": 0.0,
+    "p95_seed_delta_db_on_both_positive": 0.0,
+    "seed_delta_cells_count": 2210
+  }
+]
