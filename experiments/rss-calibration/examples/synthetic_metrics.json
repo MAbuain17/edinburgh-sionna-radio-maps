@@ -1,0 +1,127 @@
+{
+  "data_kind": "synthetic",
+  "source": "make_fixture.py; seed 17",
+  "input_sha256": "df54ba15db6bf62067603fdee345696ea2db6a4c1fe66f8125e9d91dbdd5d544",
+  "numpy_version": "2.3.5",
+  "train_fraction": 0.5,
+  "gap_s": 10.0,
+  "bias_convention": "prediction minus measurement",
+  "links": {
+    "changing_offset": {
+      "train_n": 121,
+      "gap_n": 10,
+      "test_n": 110,
+      "cutoff_s": 120.0,
+      "test_start_s": 131.0,
+      "warning": null,
+      "models": {
+        "uncorrected": {
+          "slope": 1.0,
+          "intercept_db": 0.0,
+          "train": {
+            "n": 121,
+            "mae_db": 5.876771154172002,
+            "rmse_db": 5.954777367384423,
+            "bias_db": -5.876771154172002
+          },
+          "test": {
+            "n": 110,
+            "mae_db": 5.9246451678496115,
+            "rmse_db": 6.005096236888717,
+            "bias_db": 5.9246451678496115
+          }
+        },
+        "offset": {
+          "slope": 1.0,
+          "intercept_db": 5.876771154172002,
+          "train": {
+            "n": 121,
+            "mae_db": 0.7371892564505348,
+            "rmse_db": 0.9606946947941619,
+            "bias_db": 2.8186819269822157e-15
+          },
+          "test": {
+            "n": 110,
+            "mae_db": 11.801416322021618,
+            "rmse_db": 11.842009443293374,
+            "bias_db": 11.801416322021618
+          }
+        },
+        "affine": {
+          "slope": 1.0000202182994558,
+          "intercept_db": 5.878221330712634,
+          "train": {
+            "n": 121,
+            "mae_db": 0.7371793199937072,
+            "rmse_db": 0.9606946874360048,
+            "bias_db": -2.0435443970621065e-14
+          },
+          "test": {
+            "n": 110,
+            "mae_db": 11.801338119824559,
+            "rmse_db": 11.841931619100842,
+            "bias_db": 11.801338119824559
+          }
+        }
+      }
+    },
+    "stable_offset": {
+      "train_n": 121,
+      "gap_n": 10,
+      "test_n": 110,
+      "cutoff_s": 120.0,
+      "test_start_s": 131.0,
+      "warning": null,
+      "models": {
+        "uncorrected": {
+          "slope": 1.0,
+          "intercept_db": 0.0,
+          "train": {
+            "n": 121,
+            "mae_db": 5.905173916463023,
+            "rmse_db": 6.000611048805854,
+            "bias_db": -5.905173916463023
+          },
+          "test": {
+            "n": 110,
+            "mae_db": 5.942053172656179,
+            "rmse_db": 6.020011844674576,
+            "bias_db": -5.942053172656179
+          }
+        },
+        "offset": {
+          "slope": 1.0,
+          "intercept_db": 5.905173916463023,
+          "train": {
+            "n": 121,
+            "mae_db": 0.8396727927011505,
+            "rmse_db": 1.0659521449744611,
+            "bias_db": 2.1140114452366618e-15
+          },
+          "test": {
+            "n": 110,
+            "mae_db": 0.7414535921609104,
+            "rmse_db": 0.9663885258456749,
+            "bias_db": -0.036879256193153964
+          }
+        },
+        "affine": {
+          "slope": 1.0293432272114915,
+          "intercept_db": 8.009844480981656,
+          "train": {
+            "n": 121,
+            "mae_db": 0.8324224330650369,
+            "rmse_db": 1.0518911165646259,
+            "bias_db": -2.889148975156771e-14
+          },
+          "test": {
+            "n": 110,
+            "mae_db": 0.7833759522117837,
+            "rmse_db": 1.017219775861111,
+            "bias_db": -0.15037568752908412
+          }
+        }
+      }
+    }
+  }
+}
